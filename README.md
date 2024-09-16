@@ -1,1 +1,2 @@
 # Crowd-sourcing-of-diseases-and-pests-information
+Indian farmers rely on each other for guidance on the type of seeds to use, diagnosis of pests and diseases as well as their remedies. Timely assessment of problems on the field can improve yields and therefore incomes for the smallest of farmers. The solution envisages using the “wisdom of the crowds”- the creation of a crowd-sourced database which is created for the farmers by the farmers. In the ideal situation farmers will be able to login to see information that other farmers have inputted.
