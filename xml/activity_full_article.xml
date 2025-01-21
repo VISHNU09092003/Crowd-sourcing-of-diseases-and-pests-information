@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FullArticle">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Title"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title...."
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Introduction"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/tvIntro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intro....."
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Article"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/tvArticle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Article Body......"
+                android:textSize="15sp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/approve"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/tick_white"
+            />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/submit"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:text="submit"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
